@@ -33,6 +33,9 @@ const AddSales = () => {
     await dispatch(addProducts(productName, quantity, amount));
     // Dispatching action to fetch updated revenue for the last 24 hours
     dispatch(get24HrsRevenue());
+    setProductName("");
+    setQuantity("");
+    setAmount("");
   };
 
   return (

@@ -14,7 +14,8 @@ import Revenue from "./components/Revenue"; // Component for displaying revenue
 import TopFiveSales from "./components/TopFiveSales"; // Component for displaying top five sales
 
 // Server URL for backend API
-export const server = "https://sales-app-backend-1.onrender.com";
+// export const server = "https://sales-app-backend-1.onrender.com";
+export const server = "http://localhost:5000";
 
 // Main App component
 function App() {

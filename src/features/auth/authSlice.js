@@ -55,7 +55,7 @@ export const authSlice = createSlice({
     logoutUserSuccess: (state, action) => {
       state.isLoading = false;
       state.isAuthenticated = false;
-      state.error = action.payload;
+      state.message = action.payload;
     },
     // Reducer for handling logout failure
     logoutUserFailure: (state, action) => {
