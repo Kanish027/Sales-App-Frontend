@@ -95,7 +95,7 @@ const Login = () => {
               {/* Login button */}
               <div className="d-grid gap-2 mb-3">
                 <button className="btn btn-dark" disabled={isLoading}>
-                  {isLoading ? "Logging" : "Login"}
+                  Login
                 </button>
               </div>
               {/* Sign up link */}

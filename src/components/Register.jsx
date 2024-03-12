@@ -99,7 +99,7 @@ const Register = () => {
               {/* Button for registration */}
               <div className="d-grid my-3">
                 <button className="btn btn-dark" disabled={isLoading}>
-                  {isLoading ? "Registering" : "Register"}
+                  Register
                 </button>
               </div>
               {/* Link to login page */}
